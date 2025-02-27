@@ -1,0 +1,4 @@
+@EndUserText.label: 'Demo Flight table'
+define service Z_PSHAH_FLIGHT {
+  expose Z_PS_Flight_metadata;
+}
