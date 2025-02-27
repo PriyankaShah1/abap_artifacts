@@ -4,6 +4,8 @@
   <asx:values>
    <DEVC>
     <CTEXT>Test Package</CTEXT>
+    <COMP_POSID>HAN-DB-CDS</COMP_POSID>
+    <COMPONENT>BYI3001130</COMPONENT>
    </DEVC>
   </asx:values>
  </asx:abap>
