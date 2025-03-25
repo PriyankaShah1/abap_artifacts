@@ -1,0 +1,22 @@
+@Metadata.layer: #PARTNER
+annotate view Z_PS_Flight_metadata
+    with 
+{
+    @UI:  { selectionField: [{ position: 10  }] ,
+    lineItem: [{ position: 10 }],
+    identification: [{label: 'Carrier ID'  }]
+    } 
+    Carrid;
+     @UI:  { selectionField: [{ position: 20  }] ,
+    lineItem: [{ position: 20 }],
+    identification: [{label: 'Connection ID'  }]
+    } 
+    Connid;
+     @UI:  { selectionField: [{ position: 30  }] ,
+    lineItem: [{ position: 30 }],
+    identification: [{label: 'Flight Date'  }]
+    } 
+    fdate;
+    
+    
+}
