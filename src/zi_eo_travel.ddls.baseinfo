@@ -3,7 +3,7 @@
 {
 "FROM":
 [
-"ZTB_VENDOR"
+"/DMO/TRAVEL_M"
 ],
 "ASSOCIATED":
 [],

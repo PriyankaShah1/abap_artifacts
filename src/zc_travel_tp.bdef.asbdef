@@ -1,0 +1,19 @@
+projection;
+strict ( 1 );
+
+define behavior for ZC_TRAVEL_TP alias Travel
+{
+  use create;
+  use update;
+  use delete;
+
+  use association _Bookings { create; }
+}
+
+define behavior for ZC_BOOKING_TP alias Booking
+{
+  use update;
+  use delete;
+
+  use association _Travel;
+}

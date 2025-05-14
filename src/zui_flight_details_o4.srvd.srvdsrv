@@ -1,0 +1,4 @@
+@EndUserText.label: 'service definition flight'
+define service ZUI_FLIGHT_DETAILS_O4 {
+  expose ZC_FLIGHT_CDS;
+}
