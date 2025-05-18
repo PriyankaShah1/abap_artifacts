@@ -11,7 +11,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_table_update IMPLEMENTATION.
+CLASS ZCL_TABLE_UPDATE IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
     DATA : lt_po_head TYPE TABLE OF ztb_po_head,
